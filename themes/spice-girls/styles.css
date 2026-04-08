@@ -8,3 +8,24 @@ body {
     padding: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    'title content';
+    'title credits';
+}
+
+header {
+    grid-area: title;
+}
+
+main{
+    grid-area: content;
+}
+
+footer {
+    grid-area: credits;
+}
