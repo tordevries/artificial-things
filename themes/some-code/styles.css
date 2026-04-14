@@ -1,0 +1,55 @@
+/* 
+
+some-code - like finally putting some clothes on
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap');
+
+
+body {
+    padding: 1.2rem;
+    width: 80%;
+    left: 10%;
+    font-family: "Geo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 1.3rem;
+    transition: .3s;
+    transition-delay: .1s;
+    padding-bottom: 2em;
+
+}
+
+li span{
+    font-weight: 700;
+}
+
+aside ul li{
+    width: 70%;
+    font-size: 1.4rem;
+    font-style: italic;
+    padding: 1em;
+    display: flex;
+    
+
+}
+
+header{
+    border-right: solid 5px;
+    width: 40%;
+}
+
+p{
+    padding: .5em;
+
+}
+
+footer{
+    width: 25%;
+    float: right;
+    border-bottom: solid 3px;
+    
+}
+
