@@ -1,0 +1,49 @@
+
+body {
+    background-color: #0f172a;
+    color: #e2e8f1;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 4em;
+    grid-template-areas: 
+        'title content'
+        'title credits';
+}
+
+header {
+    grid-area: title;
+    text-align: right;
+}
+
+main {
+    grid-area: content;
+    padding: 2rem;
+}
+
+footer {
+    grid-area: credits;
+}
+
+h1{
+    font-size: 4rem;
+    padding-top: 30vh;
+}
+
+header p {
+    font-size: 0.8em;
+}
+
+p{
+    line-height: 1.7;
+}
+
+p:hover {
+    color: #38bdf8;
+    transition: 0.1s;
+}
