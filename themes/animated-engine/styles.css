@@ -1,0 +1,42 @@
+/* 
+
+Animated Engine - like wearing nothing at all 
+
+*/
+
+body {
+    padding: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap:4em;
+    grid-template-areas: 
+        "title content"
+        "title credits";
+}
+
+header {
+    grid-area:title;
+    text-align: right;
+}
+
+main {
+    grid-area:content;
+}
+
+footer {
+    grid-area:credits;
+}
+
+h1 {
+    font-size: 4rem;
+    padding-top:30vh;
+}
+
+header p {
+    font: size 0.8em;;
+}
