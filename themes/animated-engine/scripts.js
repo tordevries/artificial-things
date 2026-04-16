@@ -21,6 +21,8 @@ let header = document.querySelector("header");
 let main = document.querySelector("main");
 let footer = document.querySelector("footer");
 
-newArticle.appendChild(header, main, footer);
+newArticle.appendChild(header);
+newArticle.appendChild(main);
+newArticle.appendChild(footer);
 
 }
