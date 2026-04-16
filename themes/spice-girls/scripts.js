@@ -17,7 +17,6 @@ Your first statement should be to call confirmTheme() with the name of your them
 export function initializePage() {
 
     // call main function that outputs message to console and update page title
-<<<<<<<< HEAD:themes/spice-girls/scripts.js
     confirmTheme("spice-girls");
 
     let newArticle = document.createElement("article");
@@ -28,8 +27,5 @@ export function initializePage() {
     let footer = document.querySelector("footer");
 
     newArticle.append(header, main, footer);
-========
-    confirmTheme("palm-tree");
->>>>>>>> 763c13b (step 4 done):themes/palm-tree/scripts.js
 
 }
