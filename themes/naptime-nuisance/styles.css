@@ -83,6 +83,7 @@ main {
 
 p {
     margin-bottom: 1.5rem;
+    background: transparent;
 }
 
 .focusedGlow {
