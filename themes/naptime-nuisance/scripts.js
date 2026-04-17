@@ -21,9 +21,9 @@ export function initializePage() {
     revealItems.forEach(function(item) {
         item.style.opacity = "0";
         item.style.transform = "translateY(40px)";
-        item.style.filter = "blur(3px";
+        item.style.filter = "blur(3px)";
         item.style.transition = `opacity 1s ease, transform 1s ease, filter 1s ease`;
-        item.style.transitionDelay= `$[index * 0.08}s`
+        item.style.transitionDelay= `${index * 0.08}s`
     });
 
     //When entered, apply styles etc.
