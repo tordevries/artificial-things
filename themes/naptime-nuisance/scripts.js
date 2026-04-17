@@ -52,7 +52,7 @@ export function initializePage() {
         //how much needs to be visible before enter trigger
         threshold: 0.15
     });
-    
+
     const contentObserver = new IntersectionObserver(function(entries) {
         entries.forEach(function(entry) {
             if (entry.isIntersecting) {
@@ -63,6 +63,8 @@ export function initializePage() {
     }, {
         threshold: 0.15
     });
+    //Observer element to tell the function when it enters the viewport
+    const mainObserver = observer;
 
     mainObserver.observe(mainBox);
 
