@@ -4,40 +4,64 @@ Stunning Dollop
 
 */
 
+/* Global styles */
 body {
-    padding: 1rem;
-    font-family: 'Courier New', Courier, monospace;
+    padding: 2rem;
+    background-color: #d284ca;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', serif;
 }
 
+/* Article layout */
 article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    gap: 4em;
+     display: grid;
+    grid-template-columns: 1fr 2fr;
     grid-template-areas: 
         'title content'
         'title credits';
-
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
+/* Header styles */
 header {
     grid-area: title;
     text-align: right;
+    border-right: 2px solid #ddd;
+    padding-right: 2rem;
 }
 
+/* Main content styles */
 main {
     grid-area: content;
+    line-height: 1.6;
+    font-size: 1.1rem;
 }
 
+/* Footer styles */
 footer {
     grid-area: credits;
+    font-size: 0.9rem;
+    color: #392283;
 }
 
+/* Title styles */
 h1 {
-    font-size: 4rem;
-    padding-top: 30vh;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
 }
 
+/* Header title styles */
+header h1 {
+    color: #63076f;
+}
+
+/* Subheader styles */
 header p {
-    font-size: 0.8em;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #222783;
 }
