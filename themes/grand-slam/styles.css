@@ -1,0 +1,47 @@
+/* 
+
+Grand Slam - Hey, you said to come up with a random name. Hope it's a hit.
+
+*/
+
+/*Imports for the two fonts used in this css, Bungee and DM Sans.*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    padding: 1rem;
+
+    /*Using a % to increase the font size here may be incorrect. Would you be willing to give tips on controlling font size in general? For me to write down for later use.*/
+    font-family: "DM Sans";
+    font-size:120%;
+}
+
+article {
+
+    /*I'm controlling spacing and general content alignment with purely grids this time around. Seemed easier.*/
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        'null title title title'
+        'null content content content' 
+        'null credits credits credits'
+}
+
+header {
+    grid-area: title;
+    /*This changes both the title and the h1 p tag to the Bungee font. Looks better this way in my opinion.*/
+    font-family: "Bungee";
+}
+
+main {
+    grid-area: content;
+}
+
+footer {
+    grid-area: credits;
+}
+
+h1 {
+    /*Increased title size for contrast.*/
+    font-size: 6rem;
+}
