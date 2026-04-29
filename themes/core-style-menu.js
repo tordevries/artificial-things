@@ -26,6 +26,10 @@
     {
         "label":"Bug Free Robot",
         "path":"bug-free-robot"
+    },
+    {
+        "label":"Black Pink",
+        "path":"black-pink"
     }
 
 ]
