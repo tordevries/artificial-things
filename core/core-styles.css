@@ -85,7 +85,6 @@ nav.navClicked>ul {
 nav>ul>li {
     position: relative;
     display: block;
-    margin: 1rem;
 }
 
 nav>ul>li>a {
@@ -117,8 +116,19 @@ nav>ul>li.navClicked>ul {
 }
 
 nav>ul>li>ul>li {
-    padding: 0.5rem 0 0.5rem 0.5rem;
+    height: auto;
+    overflow: display;
 }
+
+nav>ul>li>ul>li>a {
+    display: block;
+    padding: 0.5em;
+}
+
+nav>ul>li>ul>li>a:last-child {
+    margin-bottom: 0.5em;
+}
+
 
 nav a {
     text-decoration: none;
