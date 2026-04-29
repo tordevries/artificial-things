@@ -34,5 +34,9 @@
     {
         "label":"Naptime Nuisance",
         "path":"naptime-nuisance"
+    },
+    {
+        "label":"Stunning Dollop",
+        "path":"stunning-dollop"
     }
 ]
