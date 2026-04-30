@@ -3,7 +3,7 @@
 // start your JS here
 export function initializePage() {
 
-    confirmTheme("?style=ideal-space-guide");
+    confirmTheme("Ideal Space Guide");
 
     let newArticle = document.createElement("article");
 
