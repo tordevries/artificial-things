@@ -1,0 +1,91 @@
+/* Neurocloudy Theme */
+/* Bree Washington - DTC 477 TP13 */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+body {
+    background:
+        radial-gradient(circle at top, rgba(110, 0, 255, 0.35), transparent 35%),
+        radial-gradient(circle at bottom right, rgba(0, 255, 255, 0.2), transparent 30%),
+        linear-gradient(180deg, #050816 0%, #0b1026 100%);
+    
+    color: #f3f4ff;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.8;
+    padding: 5vw;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Main title */
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+    background: linear-gradient(90deg, #ffffff, #9be7ff, #d6b3ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-shadow: 0 0 20px rgba(155, 231, 255, 0.35);
+}
+
+/* Subtitle */
+
+h2 {
+    color: #c8b6ff;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+/* Paragraph styling */
+
+p {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    margin-bottom: 2rem;
+
+    box-shadow:
+        0 0 20px rgba(0,0,0,0.25),
+        0 0 30px rgba(132, 0, 255, 0.08);
+}
+
+/* Highlighted text */
+
+strong {
+    color: #9be7ff;
+    font-weight: 700;
+}
+
+/* Links */
+
+a {
+    color: #8be9fd;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #8be9fd;
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 8vw;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+}
