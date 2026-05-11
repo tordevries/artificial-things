@@ -1,0 +1,22 @@
+/* 
+
+Bat Fan - love of the dark night 
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    padding: 1rem;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+}
+
+h1,p{
+    color: #EA0106;
+}
+
+header,h1{
+    font-size: 4rem;
+    color: #EA0106;
+    font-family: "Montserrat", sans-serif;
+}
